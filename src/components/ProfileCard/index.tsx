@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Image from 'next/image'
+
 import { GrGithub } from 'react-icons/gr'
 import { FaDribbble, FaTwitter } from 'react-icons/fa'
 
@@ -33,9 +35,10 @@ const ProfileCard: React.FC<Props> = ({
 }) => (
   <S.Card key={name}>
     <S.Image>
-      <img
-        src={`@images/authors/${image}`}
-        loading="lazy"
+      <Image
+        src={`/img/authors/${image}`}
+        height={125}
+        width={125}
         alt={name}
       />
     </S.Image>

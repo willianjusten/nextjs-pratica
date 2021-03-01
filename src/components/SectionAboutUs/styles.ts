@@ -9,7 +9,7 @@ export const Content = styled.div`
     margin-top: ${theme.spacings.medium};
 
     ${media.greaterThan('medium')`
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     `}
   `}
 `

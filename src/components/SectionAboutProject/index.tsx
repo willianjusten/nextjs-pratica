@@ -9,35 +9,17 @@ const SectionAboutProject = () => (
   <S.Wrapper>
     <Container>
       <S.Container>
-        <S.Image>
-          <img
-            src={'@images/project.png'}
-            loading="lazy"
-            alt="Tela do ecommerce com uma imagem do CMS por trás"
-          />
-        </S.Image>
+        <S.Iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NgjEAoAto5M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </S.Iframe>
         <div>
           <Heading>O que iremos construir</Heading>
           <S.Text>
-            <p>
-              Iremos criar um e-commerce de jogos, incluindo toda a parte de
-              pagamentos e área do cliente. Os clientes poderão fazer buscas,
-              filtrar, adicionar ao carrinho e comprar seus jogos favoritos.
-            </p>
+            <p>Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do <strong>Leaflet</strong>.</p>
 
-            <p>
-              Teremos também um <strong>CMS completamente customizado</strong>{' '}
-              para que os administradores possam adicionar produtos, categorias,
-              plataformas, criar promoções, editar partes do site, além de
-              emails automatizados para às vendas de cada produto.
-            </p>
+            <p>Cada ponto no mapa será gerenciado através de um CMS na cloud chamado <strong>GraphCMS</strong> e iremos utilizar o <strong>NextJS</strong> para criar a melhor experiência para o usuário e também para você, desenvolvedor!</p>
 
-            <p>
-              Para criar tudo isso, iremos utilizar ferramentas muito famosas no
-              mercado de trabalho, como ReactJS, Next, Apollo e outras coisas
-              mais. Sempre prezando pela qualidade do código, ou seja, teremos{' '}
-              <strong>testes em tudo!</strong>
-            </p>
+            <p>Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas <strong>da teoria a prática</strong>, sem deixar nenhum detalhe para trás.</p>
           </S.Text>
         </div>
       </S.Container>

@@ -11,7 +11,6 @@ import SectionAboutUs from 'components/SectionAboutUs'
 import SectionReviews from 'components/SectionReviews'
 import SectionFaq from 'components/SectionFaq'
 import Footer from 'components/Footer'
-import JsonSchema from 'components/JsonSchema'
 
 const Index = () => (
   <>
@@ -26,7 +25,6 @@ const Index = () => (
     <SectionReviews />
     <SectionFaq />
     <Footer />
-    <JsonSchema />
   </>
 )
 

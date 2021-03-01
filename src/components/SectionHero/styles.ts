@@ -27,7 +27,7 @@ export const TextBlock = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    max-width: 60rem;
+    max-width: 100rem;
     margin: auto;
 
     ${media.greaterThan('medium')`
@@ -70,18 +70,6 @@ export const ButtonWrapper = styled.div`
     ${media.greaterThan('medium')`
       margin: 0;
       padding-right: ${theme.spacings.medium};
-    `}
-  `}
-`
-
-export const Image = styled.img`
-  ${({ theme }) => css`
-    margin: ${theme.spacings.large} auto;
-    width: min(34rem, 100%);
-
-    ${media.greaterThan('medium')`
-      margin: 0;
-      width: 42rem;
     `}
   `}
 `

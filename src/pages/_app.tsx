@@ -16,16 +16,16 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
       </Head>
       <NextSeo
-        title="React Avançado - Crie aplicações reais com NextJS, GraphQL e mais."
-        description="Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!"
-        canonical="https://reactavancado.com.br/"
+        title="Aprenda NextJS, GraphQL e Leaflet na prática!"
+        description="Crie um mapa totalmente interativo com um CMS integrado em poucas horas!"
+        canonical="https://nextjs-pratica.willianjusten.com.br/"
         openGraph={{
-          url: 'https://reactavancado.com.br/',
+          url: 'https://nextjs-pratica.willianjusten.com.br/',
           title:
-            'React Avançado - Crie aplicações reais com NextJS, GraphQL e mais.',
+            'Aprenda NextJS, GraphQL e Leaflet na prática!',
           description:
-            'Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!',
-          images: [{ url: 'https://reactavancado.com.br/img/cover.png' }],
+            'Crie um mapa totalmente interativo com um CMS integrado em poucas horas!',
+          images: [{ url: 'https://nextjs-pratica.willianjusten.com.br/img/cover.png' }],
           site_name: 'React Avançado',
           locale: 'pt_BR'
         }}

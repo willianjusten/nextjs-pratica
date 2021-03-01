@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Logo from 'components/Logo'
 import Button from 'components/Button'
 import * as S from './styles'
 
@@ -13,29 +12,23 @@ const onClick = () =>
 const SectionHero = () => (
   <S.Wrapper>
     <Container>
-      <Logo />
-
       <S.Content>
         <S.TextBlock>
-          <S.Title>React Avançado</S.Title>
+          <S.Title>NextJS na Prática</S.Title>
           <S.Description>
-            Crie aplicações reais com NextJS, Strapi, GraphQL e mais!
+            Crie um mapa totalmente interativo com um CMS integrado em poucas
+            horas!
           </S.Description>
           <S.ButtonWrapper>
             <Button
-              href="https://www.udemy.com/course/react-avancado/?couponCode=PROMOFEV21"
+              href="#agenda"
               onClick={onClick}
               wide
             >
-              Comprar
+              Me avise!
             </Button>
           </S.ButtonWrapper>
         </S.TextBlock>
-
-        <S.Image
-          src="/img/hero-illustration.svg"
-          alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
-        />
       </S.Content>
     </Container>
   </S.Wrapper>

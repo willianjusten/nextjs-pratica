@@ -20,18 +20,6 @@ const content = [
       { slug: 'twitter', link: 'https://twitter.com/guilhermelouro' },
       { slug: 'github', link: 'https://github.com/guilouro' }
     ]
-  },
-  {
-    name: 'Marcos Oliveira',
-    role: 'Designer',
-    image: 'marcos.png',
-    description:
-      'Front-End e UI Designer há alguns anos. Atualmente trabalha na Lukin Co. Já participou de diversos tipos de projetos, na área da saúde, streaming e varejo. Sempre dividido entre design e programação. No tempo livre sempre está envolvido com a comunidade, organizando eventos e meetups.',
-    socialLinks: [
-      { slug: 'twitter', link: 'https://twitter.com/vmaarcosp' },
-      { slug: 'dribbble', link: 'https://dribbble.com/vmarcosp' },
-      { slug: 'github', link: 'https://github.com/vmarcosp' }
-    ]
   }
 ]
 

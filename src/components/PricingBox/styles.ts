@@ -52,9 +52,10 @@ export const DiscountPrice = styled.p`
     font-size: ${theme.font.sizes.xxlarge};
     font-weight: ${theme.font.bold};
 
-    span {
+    sup {
       color: ${theme.colors.texts};
       font-size: ${theme.font.sizes.medium};
+      vertical-align: super;
     }
   `}
 `
@@ -102,5 +103,14 @@ export const ButtonFullPrice = styled.span`
 export const ButtonDiscountPrice = styled.span`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.medium};
+  `}
+`
+
+export const SmallText = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.colors.gray};
+    font-size: ${theme.font.sizes.xxsmall};
+    margin-top: 3rem;
+    text-align: center;
   `}
 `

@@ -22,7 +22,7 @@ export const IconsContainer = styled.div`
     margin-top: ${theme.spacings.large};
 
     ${media.greaterThan('small')`
-      grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
     `}
 
     ${media.greaterThan('medium')`

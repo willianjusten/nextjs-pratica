@@ -12,14 +12,6 @@ const icons = [
     image: 'nextjs.svg'
   },
   {
-    name: 'Strapi',
-    image: 'strapi.svg'
-  },
-  {
-    name: 'Apollo',
-    image: 'apollo.svg'
-  },
-  {
     name: 'GraphQL',
     image: 'graphql.svg'
   },
@@ -30,14 +22,6 @@ const icons = [
   {
     name: 'Testing Library',
     image: 'rtl.svg'
-  },
-  {
-    name: 'Storybook',
-    image: 'storybook.svg'
-  },
-  {
-    name: 'Cypress',
-    image: 'cypress.svg'
   }
 ]
 
