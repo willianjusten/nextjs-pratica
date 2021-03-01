@@ -19,7 +19,7 @@ const SectionAboutProject = () => (
 
             <p>Cada ponto no mapa será gerenciado através de um CMS na cloud chamado <strong>GraphCMS</strong> e iremos utilizar o <strong>NextJS</strong> para criar a melhor experiência para o usuário e também para você, desenvolvedor!</p>
 
-            <p>Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas <strong>da teoria a prática</strong>, sem deixar nenhum detalhe para trás.</p>
+            <p>Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas <strong>da teoria à prática</strong>, sem deixar nenhum detalhe para trás.</p>
           </S.Text>
         </div>
       </S.Container>
