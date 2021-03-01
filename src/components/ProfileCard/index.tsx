@@ -33,13 +33,8 @@ const ProfileCard: React.FC<Props> = ({
 }) => (
   <S.Card key={name}>
     <S.Image>
-      <source
-        srcSet={require(`@images/authors/${image}?webp`)}
-        type="image/webp"
-      />
-      <source srcSet={require(`@images/authors/${image}`)} type="image/png" />
       <img
-        src={require(`@images/authors/${image}`)}
+        src={`@images/authors/${image}`}
         loading="lazy"
         alt={name}
       />
