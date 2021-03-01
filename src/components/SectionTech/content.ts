@@ -16,10 +16,6 @@ const icons = [
     image: 'graphql.svg'
   },
   {
-    name: 'Jest',
-    image: 'jest.svg'
-  },
-  {
     name: 'Testing Library',
     image: 'rtl.svg'
   }
