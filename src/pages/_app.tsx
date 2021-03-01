@@ -18,15 +18,15 @@ const App = ({ Component, pageProps }: AppProps) => {
       <NextSeo
         title="Aprenda NextJS, GraphQL e Leaflet na prática!"
         description="Crie um mapa totalmente interativo com um CMS integrado em poucas horas!"
-        canonical="https://nextjs-pratica.willianjusten.com.br/"
+        canonical="https://nextjs.willianjusten.com.br/"
         openGraph={{
-          url: 'https://nextjs-pratica.willianjusten.com.br/',
+          url: 'https://nextjs.willianjusten.com.br/',
           title:
             'Aprenda NextJS, GraphQL e Leaflet na prática!',
           description:
             'Crie um mapa totalmente interativo com um CMS integrado em poucas horas!',
-          images: [{ url: 'https://nextjs-pratica.willianjusten.com.br/img/cover.png' }],
-          site_name: 'React Avançado',
+          images: [{ url: 'https://nextjs.willianjusten.com.br/img/cover.png' }],
+          site_name: 'NextJS na Prática',
           locale: 'pt_BR'
         }}
         twitter={{

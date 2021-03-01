@@ -6,7 +6,7 @@ import * as S from './styles'
 const ShareButtons = () => (
   <S.Wrapper>
     <a
-      href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Freactavancado.com.br%2F"
+      href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnextjs.willianjusten.com.br%2F"
       target="_blank"
       rel="noreferrer"
       aria-label="Facebook"
@@ -15,7 +15,7 @@ const ShareButtons = () => (
     </a>
 
     <a
-      href="https://twitter.com/intent/tweet/?text=Quero%20aprender%20React%20Avan%C3%A7ado%20com%20o%20%40Willian_Justen%20e%20%40guilhermelouro%20!&amp;url=https%3A%2F%2Freactavancado.com.br%2F"
+      href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnextjs-willianjusten.com.br%2F&text=Quero%20aprender%20NextJS%20na%20pr%E1tica%20com%20@Willian_justen%20e%20@guilhermelouro%21"
       target="_blank"
       rel="noreferrer"
       aria-label="Twitter"
