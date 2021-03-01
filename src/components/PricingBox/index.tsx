@@ -22,7 +22,7 @@ const PricingBox = () => (
     </S.Prices>
     <S.BenefitsList>
       <S.BenefitsItem>
-        Acesso a todo conteúdo <strong>no dia 1!</strong>
+        Acesso a todo conteúdo <strong>no primeiro dia!</strong>
       </S.BenefitsItem>
 
       <S.BenefitsItem>
