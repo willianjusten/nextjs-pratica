@@ -42,8 +42,8 @@ export const Title = styled.h1`
     font-size: min(${theme.font.sizes.xxlarge}, 5vw);
     font-weight: ${theme.font.bold};
 
-    ${media.greaterThan('medium')`
-      font-size: ${theme.font.sizes.xlarge};
+    ${media.lessThan('medium')`
+      font-size: ${theme.font.sizes.xxlarge};
     `}
   `}
 `
