@@ -34,7 +34,7 @@ const SectionFaq = () => (
             </a>{' '}
             ou entrar no{' '}
             <a
-              href="https://willianjusten-cursos.slack.com/join/shared_invite/zt-g20h37hj-GnSb_y7PXCRjS92N9T8LCQ#/"
+              href="http://bit.ly/slack-will"
               target="_blank"
               rel="noreferrer"
             >
