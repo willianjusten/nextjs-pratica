@@ -21,7 +21,7 @@ const SectionHero = () => (
           </S.Description>
           <S.ButtonWrapper>
             <Button
-              href="https://www.udemy.com/course/aprenda-nextjs-na-pratica/?couponCode=PROMONOV21"
+              href="https://www.udemy.com/course/aprenda-nextjs-na-pratica/?couponCode=BLACKFRIDAY21"
               onClick={onClick}
               wide
             >
