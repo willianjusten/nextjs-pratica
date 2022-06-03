@@ -11,10 +11,10 @@ const PricingBox = () => (
   <S.Box>
     <S.Prices>
       <S.FullPrice>
-        De <span>R$54.99</span> por apenas
+        De <span>R$74.99</span> por apenas
       </S.FullPrice>
       <S.DiscountPrice>
-        R$39.90 <sup>*</sup>
+        R$54.90 <sup>*</sup>
       </S.DiscountPrice>
     </S.Prices>
     <S.BenefitsList>
