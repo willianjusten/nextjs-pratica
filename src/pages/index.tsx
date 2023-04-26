@@ -20,7 +20,6 @@ const Index = () => (
     <SectionConcepts />
     <SectionModules />
     <SectionAgenda />
-    <PricingBox />
     <SectionAboutUs />
     <SectionReviews />
     <SectionFaq />
